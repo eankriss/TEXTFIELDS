@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles and Variables - Text Fields</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="semiTitle">
+            <h3>STYLES & VARIABLES</h3>
+        </div>
+
+        <div class="mainTitle">
+            <h1>Text Fields</h1>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Inputs and Fields Section -->
+        <section class="fields-section">
+            <h2 class="section-title">Inputs and Fields</h2>
+            <p class="description">Text fields let users enter and edit text. Text field allow users to enter text into
+                a UI. They typically appear in forms and dialogs.</p>
+
+            <!-- Text Input Top -->
+            <div class="input-section">
+                <h3>Text Input - Top</h3>
+
+                <div class="input-row2">
+
+                    <div class="label-row">
+                        <div class="label-column">Empty</div>
+                        <div class="label-column">Filled</div>
+                        <div class="label-column">Focused</div>
+                        <div class="label-column">Error-Empty</div>
+                        <div class="label-column">Error-Filled</div>
+                        <div class="label-column">Disabled-Empty</div>
+                        <div class="label-column">Disabled-Filled</div>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="input-row3">
+
+                        <div class="vertical-labels">
+                            <div class="label-column2">Default</div><br><br><br>
+                            <div class="label-column2">Required</div><br><br><br>
+                            <div class="label-column2">No label</div><br>
+                        </div>
+
+                    </div>
+
+                    <div class="input-row">
+
+                        <div class="input-group">
+                            <div class="input-box empty">
+                                <label for="input1">Label</label>
+                                <input id="input1" type="text">
+                            </div>
+
+                            <div class="input-box filled">
+                                <label for="input2">Label</label>
+                                <input id="input2" type="text" value="Content">
+                            </div>
+
+                            <div class="input-box focused">
+                                <label for="input3">Label</label>
+                                <input id="input3" type="text" class="focused-input" value="Content">
+                            </div>
+
+                            <div class="input-box error">
+                                <label for="input4" class="error-label">Label</label>
+                                <input id="input4" type="text" class="error-input">
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box error">
+                                <label for="input4" class="error-label">Label</label>
+                                <input id="input4" type="text" class="error-input" value="Content">
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <label for="input5" class="disabled-label">Label</label>
+                                <input id="input5" type="text" disabled placeholder="Placeholder">
+                            </div>
+
+                            <div class="input-box disabled">
+                                <label for="input5" class="disabled-label">Label</label>
+                                <input id="input5" type="text" disabled value="Content">
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <div class="input-box empty">
+                                <label for="input1">Label*</label>
+                                <input id="input1" type="text">
+                            </div>
+
+                            <div class="input-box filled">
+                                <label for="input2">Label*</label>
+                                <input id="input2" type="text" value="Content">
+                            </div>
+
+                            <div class="input-box focused">
+                                <label for="input3">Label*</label>
+                                <input id="input3" type="text" class="focused-input" value="Content">
+                            </div>
+
+                            <div class="input-box error">
+                                <label for="input4" class="error-label">Label*</label>
+                                <input id="input4" type="text" class="error-input">
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box error">
+                                <label for="input4" class="error-label">Label*</label>
+                                <input id="input4" type="text" class="error-input" value="Content">
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <label for="input5" class="disabled-label">Label*</label>
+                                <input id="input5" type="text" disabled placeholder="Placeholder">
+                            </div>
+
+                            <div class="input-box disabled">
+                                <label for="input5" class="disabled-label">Label*</label>
+                                <input id="input5" type="text" disabled value="Content">
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <div class="input-box empty">
+                                <input id="input1" type="text">
+                            </div>
+
+                            <div class="input-box filled">
+                                <input id="input2" type="text" value="Content">
+                            </div>
+
+                            <div class="input-box focused">
+                                <input id="input3" type="text" class="focused-input" value="Content">
+                            </div>
+
+                            <div class="input-box error">
+                                <input id="input4" type="text" class="error-input">
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box error">
+                                <input id="input4" type="text" class="error-input" value="Content">
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <input id="input5" type="text" disabled placeholder="Placeholder">
+                            </div>
+
+                            <div class="input-box disabled">
+                                <input id="input5" type="text" disabled value="Content">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <!-- Text Input Left -->
+            <div class="input-section">
+                <h3>Text Input - Left</h3>
+
+                <div class="input-row2">
+
+                    <div class="label-row">
+                        <div class="label-column">Empty</div>
+                        <div class="label-column">Filled</div>
+                        <div class="label-column">Focused</div>
+                        <div class="label-column">Error-Empty</div>
+                        <div class="label-column">Error-Filled</div>
+                        <div class="label-column">Disabled-Empty</div>
+                        <div class="label-column">Disabled-Filled</div>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="input-row3">
+
+                        <div class="vertical-labels">
+                            <div class="label-column2">Default</div><br><br><br>
+                            <div class="label-column2">Required</div><br><br>
+                            <div class="label-column2">No label</div><br>
+                        </div>
+
+                    </div>
+
+                    <div class="input-row">
+
+                        <div class="input-group">
+
+                            <div class="input-box empty">
+                                <div class="input-label-container">
+                                    <label for="input1">Label</label>
+                                    <input id="input1" type="text">
+                                </div>
+                            </div>
+
+                            <div class="input-box filled">
+                                <div class="input-label-container">
+                                    <label for="input2">Label</label>
+                                    <input id="input2" type="text" value="Content">
+                                </div>
+                            </div>
+
+                            <div class="input-box focused">
+                                <div class="input-label-container">
+                                    <label for="input3">Label</label>
+                                    <input id="input3" type="text" class="focused-input" value="Content">
+                                </div>
+                            </div>
+
+                            <div class="input-box error">
+                                <div class="input-label-container">
+                                    <label for="input4-error" class="error-label">Label</label>
+                                    <input id="input4-error" type="text" class="error-input">
+                                </div>
+                                <span class="error-message2">Error message</span> <!-- Error message below the input -->
+                            </div>
+
+                            <div class="input-box error">
+                                <div class="input-label-container">
+                                    <label for="input5-error" class="error-label">Label</label>
+                                    <input id="input5-error" type="text" class="error-input" value="Content">
+                                </div>
+                                <span class="error-message2">Error message</span> <!-- Error message below the input -->
+                            </div>
+
+                            <div class="input-box disabled">
+                                <div class="input-label-container">
+                                    <label for="input6-disabled" class="disabled-label">Label</label>
+                                    <input id="input6-disabled" type="text" disabled placeholder="Placeholder">
+                                </div>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <div class="input-label-container">
+                                    <label for="input7-disabled" class="disabled-label">Label</label>
+                                    <input id="input7-disabled" type="text" disabled value="Content">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="input-group">
+
+                            <div class="input-box empty">
+                                <div class="input-label-container">
+                                    <label for="input1">Label*</label>
+                                    <input id="input1" type="text">
+                                </div>
+                            </div>
+
+                            <div class="input-box filled">
+                                <div class="input-label-container">
+                                    <label for="input2">Label*</label>
+                                    <input id="input2" type="text" value="Content">
+                                </div>
+                            </div>
+
+                            <div class="input-box focused">
+                                <div class="input-label-container">
+                                    <label for="input3">Label*</label>
+                                    <input id="input3" type="text" class="focused-input" value="Content">
+                                </div>
+                            </div>
+
+                            <div class="input-box error">
+                                <div class="input-label-container">
+                                    <label for="input4-error" class="error-label">Label*</label>
+                                    <input id="input4-error" type="text" class="error-input">
+                                </div>
+                                <span class="error-message2">Error message</span> <!-- Error message below the input -->
+                            </div>
+
+                            <div class="input-box error">
+                                <div class="input-label-container">
+                                    <label for="input5-error" class="error-label">Label*</label>
+                                    <input id="input5-error" type="text" class="error-input" value="Content">
+                                </div>
+                                <span class="error-message2">Error message</span> <!-- Error message below the input -->
+                            </div>
+
+                            <div class="input-box disabled">
+                                <div class="input-label-container">
+                                    <label for="input6-disabled" class="disabled-label">Label*</label>
+                                    <input id="input6-disabled" type="text" disabled placeholder="Placeholder">
+                                </div>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <div class="input-label-container">
+                                    <label for="input7-disabled" class="disabled-label">Label*</label>
+                                    <input id="input7-disabled" type="text" disabled value="Content">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="input-group">
+
+                            <div class="input-box empty">
+                                <div class="input-label-container">
+                                    <input id="input1" type="text">
+                                </div>
+                            </div>
+
+                            <div class="input-box filled">
+                                <div class="input-label-container">
+                                    <input id="input2" type="text" value="Content">
+                                </div>
+                            </div>
+
+                            <div class="input-box focused">
+                                <div class="input-label-container">
+                                    <input id="input3" type="text" class="focused-input" value="Content">
+                                </div>
+                            </div>
+
+                            <div class="input-box error">
+                                <div class="input-label-container">
+                                    <input id="input4-error" type="text" class="error-input">
+                                </div>
+                                <span class="error-message3">Error message</span> <!-- Error message below the input -->
+                            </div>
+
+                            <div class="input-box error">
+                                <div class="input-label-container">
+                                    <input id="input5-error" type="text" class="error-input" value="Content">
+                                </div>
+                                <span class="error-message3">Error message</span> <!-- Error message below the input -->
+                            </div>
+
+                            <div class="input-box disabled">
+                                <div class="input-label-container">
+                                    <input id="input6-disabled" type="text" disabled placeholder="Placeholder">
+                                </div>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <div class="input-label-container">
+                                    <input id="input7-disabled" type="text" disabled value="Content">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!-- Text Field -->
+            <div class="input-section">
+                <h3>Text Field</h3>
+
+                <div class="input-row2">
+
+                    <div class="label-row">
+                        <div class="label-column">Empty</div>
+                        <div class="label-column">Filled</div>
+                        <div class="label-column">Focused</div>
+                        <div class="label-column">Error-Empty</div>
+                        <div class="label-column">Error-Filled</div>
+                        <div class="label-column">Disabled-Empty</div>
+                        <div class="label-column">Disabled-Filled</div>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="input-row3">
+
+                        <div class="vertical-labels">
+                            <div class="label-column2">Default</div><br><br><br><br><br>
+                            <div class="label-column2">Required</div><br><br><br><br><br>
+                            <div class="label-column2">No label</div><br>
+                        </div>
+
+                    </div>
+
+                    <div class="input-row">
+
+                        <div class="input-group">
+
+                            <div class="input-box empty">
+                                <label for="textarea1">Label</label>
+                                <textarea id="textarea1" class="multi-line"></textarea>
+                            </div>
+
+                            <div class="input-box filled">
+                                <label for="textarea2">Label</label>
+                                <textarea id="textarea2" class="multi-line">Content</textarea>
+                            </div>
+
+                            <div class="input-box focused">
+                                <label for="textarea3">Label</label>
+                                <textarea id="textarea3" class="focused-input multi-line3">Content</textarea>
+                            </div>
+
+                            <div class="input-box error">
+                                <label for="textarea4" class="error-label">Label</label>
+                                <textarea id="textarea4" class="error-input multi-line4"></textarea>
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box error">
+                                <label for="textarea5" class="error-label">Label</label>
+                                <textarea id="textarea5" class="error-input multi-line4">Content</textarea>
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <label for="textarea6" class="disabled-label">Label</label>
+                                <textarea id="textarea6" disabled class="multi-line5"
+                                    placeholder="Placeholder"></textarea>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <label for="textarea7" class="disabled-label">Label</label>
+                                <textarea id="textarea7" disabled class="multi-line5">Content</textarea>
+                            </div>
+
+                        </div>
+
+                        <div class="input-group">
+
+                            <div class="input-box empty">
+                                <label for="textarea1">Label*</label>
+                                <textarea id="textarea1" class="multi-line"></textarea>
+                            </div>
+
+                            <div class="input-box filled">
+                                <label for="textarea2">Label*</label>
+                                <textarea id="textarea2" class="multi-line">Content</textarea>
+                            </div>
+
+                            <div class="input-box focused">
+                                <label for="textarea3">Label*</label>
+                                <textarea id="textarea3" class="focused-input multi-line3">Content</textarea>
+                            </div>
+
+                            <div class="input-box error">
+                                <label for="textarea4" class="error-label">Label*</label>
+                                <textarea id="textarea4" class="error-input multi-line4"></textarea>
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box error">
+                                <label for="textarea5" class="error-label">Label*</label>
+                                <textarea id="textarea5" class="error-input multi-line4">Content</textarea>
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <label for="textarea6" class="disabled-label">Label*</label>
+                                <textarea id="textarea6" disabled class="multi-line5"
+                                    placeholder="Placeholder"></textarea>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <label for="textarea7" class="disabled-label">Label*</label>
+                                <textarea id="textarea7" disabled class="multi-line5">Content</textarea>
+                            </div>
+
+                        </div>
+
+                        <div class="input-group">
+
+                            <div class="input-box empty">
+                                <textarea id="textarea1" class="multi-line"></textarea>
+                            </div>
+
+                            <div class="input-box filled">
+                                <textarea id="textarea2" class="multi-line">Content</textarea>
+                            </div>
+
+                            <div class="input-box focused">
+                                <textarea id="textarea3" class="focused-input multi-line3">Content</textarea>
+                            </div>
+
+                            <div class="input-box error">
+                                <textarea id="textarea4" class="error-input multi-line4"></textarea>
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box error">
+                                <textarea id="textarea5" class="error-input multi-line4">Content</textarea>
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <textarea id="textarea6" disabled class="multi-line5"
+                                    placeholder="Placeholder"></textarea>
+                            </div>
+
+                            <div class="input-box disabled">
+                                <textarea id="textarea7" disabled class="multi-line5">Content</textarea>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <br><br>
+
+        <!-- Dropdown Fields Section -->
+        <section class="fields-section">
+            <h2 class="section-title">Dropdown Fields</h2>
+            <p class="description">A drop-down menu field is a list of options that is revealed only when a user
+                interacts with the input field, either by clicking it or hovering over it with their cursor.</p>
+
+
+            <!-- Dropdown Top -->
+            <div class="dropdown-section">
+                <h3>Dropdown - Top</h3>
+
+                <div class="input-row2">
+
+                    <div class="label-row">
+                        <div class="label-column">Empty</div>
+                        <div class="label-column">Filled</div>
+                        <div class="label-column">Error</div>
+                        <div class="label-column">Disabled</div>
+                        <div class="label-column">Dropdown</div>
+                        <div class="label-column">Dropdown-error</div>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="input-row3">
+
+                        <div class="vertical-labels">
+                            <div class="label-column2">Default</div><br><br><br>
+                            <div class="label-column2">Required</div><br><br><br>
+
+                        </div>
+
+                    </div>
+
+                    <div class="input-row">
+
+                        <div class="dropdown-group">
+
+                            <div class="dropdown-box empty">
+                                <label for="dropdown1">Label</label>
+                                <select id="dropdown1">
+                                    <option disabled selected></option>
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </select>
+                            </div>
+
+                            <div class="dropdown-box filled">
+                                <label for="dropdown2">Label</label>
+                                <select id="dropdown2">
+                                    <option disabled selected>Selected</option>
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </select>
+                            </div>
+
+                            <div class="dropdown-box error">
+                                <label for="dropdown3" class="error-label">Label</label>
+                                <select id="dropdown3" class="error-input">
+                                    <option disabled selected></option>
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </select>
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="dropdown-box disabled">
+                                <label for="dropdown4" class="disabled-label">Label</label>
+                                <select id="dropdown4" disabled class="disabled input">
+                                    <option disabled selected>Placeholder</option>
+                                </select>
+                            </div>
+
+                            <div class="dropdown-box focused">
+                                <label for="dropdown5">Label</label>
+                                <select id="dropdown5" class="focused-input">
+                                    <option disabled selected></option>
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </select>
+                            </div>
+
+                            <div class="dropdown-box error">
+                                <label for="dropdown6" class="error-label">Label</label>
+                                <select id="dropdown6" class="error-input">
+                                    <option disabled selected></option>
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </select>
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-group">
+
+                            <div class="dropdown-box empty">
+                                <label for="dropdown1">Label*</label>
+                                <select id="dropdown1">
+                                    <option disabled selected></option>
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </select>
+                            </div>
+
+                            <div class="dropdown-box filled">
+                                <label for="dropdown2">Label*</label>
+                                <select id="dropdown2">
+                                    <option disabled selected>Selected</option>
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </select>
+                            </div>
+
+                            <div class="dropdown-box error">
+                                <label for="dropdown3" class="error-label">Label*</label>
+                                <select id="dropdown3" class="error-input">
+                                    <option disabled selected></option>
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </select>
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="dropdown-box disabled">
+                                <label for="dropdown4" class="disabled-label">Label*</label>
+                                <select id="dropdown4" disabled class="disabled input">
+                                    <option disabled selected>Placeholder</option>
+                                </select>
+                            </div>
+
+                            <div class="dropdown-box focused">
+                                <label for="dropdown5">Label*</label>
+                                <select id="dropdown5" class="focused-input">
+                                    <option disabled selected></option>
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </select>
+                            </div>
+
+                            <div class="dropdown-box error">
+                                <label for="dropdown6" class="error-label">Label*</label>
+                                <select id="dropdown6" class="error-input">
+                                    <option disabled selected></option>
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </select>
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Dropdown Left -->
+            <div class="dropdown-section">
+                <h3>Dropdown - Left</h3>
+
+                <div class="input-row2">
+
+                    <div class="label-row">
+                        <div class="label-column">Empty</div>
+                        <div class="label-column">Filled</div>
+                        <div class="label-column">Error</div>
+                        <div class="label-column">Disabled</div>
+                        <div class="label-column">Dropdown</div>
+                        <div class="label-column">Dropdown-error</div>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="input-row3">
+
+                        <div class="vertical-labels">
+                            <div class="label-column2">Default</div><br><br><br>
+                            <div class="label-column2">Required</div><br><br><br>
+
+                        </div>
+
+                    </div>
+
+                    <div class="input-row">
+
+                        <div class="dropdown-group">
+
+                            <div class="dropdown-box empty">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown1">Label</label>
+                                    <select id="dropdown1">
+                                        <option disabled selected></option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <div class="dropdown-box filled">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown2">Label</label>
+                                    <select id="dropdown2">
+                                        <option disabled selected>Selected</option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <div class="dropdown-box error">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown3" class="error-label">Label</label>
+                                    <select id="dropdown3" class="error-input">
+                                        <option disabled selected></option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                    </select>
+
+                                </div>
+
+                                <span class="error-message4">Error message</span>
+
+
+                            </div>
+
+                            <div class="dropdown-box disabled">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown4" class="disabled-label">Label</label>
+                                    <select id="dropdown4" disabled class="disabled input">
+                                        <option disabled selected>Placeholder</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <div class="dropdown-box focused">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown5">Label</label>
+                                    <select id="dropdown5" class="focused-input">
+                                        <option disabled selected></option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <div class="dropdown-box error">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown6" class="error-label">Label</label>
+                                    <select id="dropdown6" class="error-input">
+                                        <option disabled selected></option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                    </select>
+
+                                </div>
+
+                                <span class="error-message4">Error message</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="dropdown-group">
+
+                            <div class="dropdown-box empty">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown1">Label*</label>
+                                    <select id="dropdown1">
+                                        <option disabled selected></option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <div class="dropdown-box filled">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown2">Label*</label>
+                                    <select id="dropdown2">
+                                        <option disabled selected>Selected</option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <div class="dropdown-box error">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown3" class="error-label">Label*</label>
+                                    <select id="dropdown3" class="error-input">
+                                        <option disabled selected></option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                    </select>
+
+                                </div>
+
+                                <span class="error-message4">Error message</span>
+
+
+                            </div>
+
+                            <div class="dropdown-box disabled">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown4" class="disabled-label">Label*</label>
+                                    <select id="dropdown4" disabled class="disabled input">
+                                        <option disabled selected>Placeholder</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <div class="dropdown-box focused">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown5">Label*</label>
+                                    <select id="dropdown5" class="focused-input">
+                                        <option disabled selected></option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <div class="dropdown-box error">
+
+                                <div class="input-label-container">
+
+                                    <label for="dropdown6" class="error-label">Label*</label>
+                                    <select id="dropdown6" class="error-input">
+                                        <option disabled selected></option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                    </select>
+
+                                </div>
+
+                                <span class="error-message4">Error message</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Dropdown Top -->
+            <div class="dropdown-section">
+                <h3>Dropdown - Top</h3>
+
+                <div class="input-row2">
+
+                    <div class="label-row">
+                        <div class="label-column">Empty</div>
+                        <div class="label-column">Filled</div>
+                        <div class="label-column">Error</div>
+                        <div class="label-column">Disabled</div>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="input-row3">
+
+                        <div class="vertical-labels">
+                            <div class="label-column2">Default</div><br><br><br>
+                            <div class="label-column2">Required</div><br><br><br>
+
+                        </div>
+
+                    </div>
+
+                    <div class="input-row">
+
+                        <div class="dropdown-group">
+
+                            <div class="dropdown-box empty">
+                                <div class="radio-option">
+                                    <input type="radio" id="option1" name="fav_language" value="Option1">
+                                    <label for="option1">
+                                        <span>Option1</span>
+                                    </label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="option2" name="fav_language" value="Option2">
+                                    <label for="option2">
+                                        <span>Option2</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="dropdown-box empty">
+                                <div class="radio-option">
+                                    <input type="radio" id="option1" name="fav_language" value="Option1">
+                                    <label for="option1">
+                                        <span>Option1</span>
+                                        <span class="subtext">Subtext information</span>
+                                    </label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="option2" name="fav_language" value="Option2">
+                                    <label for="option2">
+                                        <span>Option2</span>
+                                        <span class="subtext">Subtext information</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+
+                            <div class="dropdown-box error2">
+                                <div class="radio-option">
+                                    <input type="radio" id="option1" name="fav_language" value="Option1">
+                                    <label for="option1">
+                                        <span>Option1</span>
+                                    </label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="option2" name="fav_language" value="Option2">
+                                    <label for="option2">
+                                        <span>Option2</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="dropdown-box disabled">
+                                <div class="radio-option">
+                                    <input type="radio" id="option1" name="fav_language" value="Option1" disabled>
+                                    <label for="option1">
+                                        <span>Option1</span>
+                                        <span class="subtext">Subtext information</span>
+                                    </label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="option2" name="fav_language" value="Option2" disabled>
+                                    <label for="option2">
+                                        <span>Option2</span>
+                                        <span class="subtext">Subtext information</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+
+                        <div class="dropdown-group">
+
+                            <div class="dropdown-box empty">
+
+                                <label for="dropdown1">Label*</label>
+                                <div class="input-container">
+                                    <i class="fas fa-search search-icon"></i>
+                                    <input type="text" name="dropdown1" list="exampleList">
+                                </div>
+                                <datalist id="exampleList">
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </datalist>
+
+                            </div>
+
+                            <div class="dropdown-box empty">
+                                <label for="dropdown1">Label*</label>
+                                <div class="input-container">
+                                    <i class="fas fa-search search-icon"></i>
+                                    <input type="text" name="dropdown1" list="exampleList">
+                                </div>
+                                <datalist id="exampleList">
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </datalist>
+                            </div>
+
+                            <div class="dropdown-box error">
+                                <label for="dropdown1" class="error-label">Label*</label>
+                                <div class="input-container">
+                                    <i class="fas fa-search search-icon"></i>
+                                    <input type="text" name="dropdown1" list="exampleList" class="error-input">
+                                </div>
+
+                                <datalist id="exampleList">
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                </datalist>
+                                <span class="error-message">Error message</span>
+                            </div>
+
+                            <div class="dropdown-box disabled">
+                                <label for="dropdown4" class="disabled-label">Label*</label>
+                                <div class="input-container">
+                                    
+
+                                </div>
+                                <select id="dropdown4" disabled class="disabled input2">
+
+                                    <option disabled selected></option>
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>

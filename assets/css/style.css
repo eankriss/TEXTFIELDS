@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mallory', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 3% 0 0 5%;
+}
+
+.semiTitle h3 {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.mainTitle h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.fields-section {
+    margin: 3% 0 0 5%;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Input Section */
+.input-section {
+    margin-bottom: 40px;
+}
+
+.dropdown-section {
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.input-section h3 {
+    color: #004C87;
+    margin-left: 1%;
+}
+
+.dropdown-section h3 {
+    color: #004C87;
+    margin-left: 1%;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.dropdown-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.input-label-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.input-label-container label {
+    margin: 0; /* Remove margin to stick the label to the input */
+    
+}
+
+.input-label-container input, .input-label-container select {
+    margin-left: 5px; /* Small space between label and input */
+    flex: 1; /* Make the input take the remaining space */
+}
+
+
+.input-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: calc(100% - 10%);
+    border: 2px dashed #85A7BF;
+    padding: 10px;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.dropdown-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: calc(100% - 10%);
+    border: 2px dashed #85A7BF;
+    padding: 10px;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.dropdown-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: calc(100% - 10%);
+    border: 2px dashed #85A7BF;
+    padding: 10px;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.input-row2, .dropdown-row {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: calc(100% - 10%);
+    color: #898F98;
+}
+
+
+.input-row3 {
+    display: flex;
+    color: #898F98;
+    margin-right: 20px; /* Space between the label column and input row */
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.vertical-labels {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 55%;
+}
+
+.label-column {
+    margin-bottom: 10px;  
+    text-align: left;  
+}
+
+.label-column2 {
+    margin-bottom: 50%;  
+    text-align: center;  
+}
+
+
+.input-box {
+    flex: 1;
+    min-width: 0;
+    max-width: 180px;
+}
+
+.dropdown-box {
+    flex: 1;
+    width: 300px;
+}
+
+.dropdown-box2 {
+    flex: 1;
+    width: 250px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 5px 2%;
+}
+
+.multi-line {
+    height: 70px; /* Desired height */
+    line-height: 1.5; /* Spacing */
+    resize: none; /* Prevent resizing */
+    overflow: hidden; /* Hide overflow */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ccc; /* Optional: border */
+    border-radius: 4px; /* Optional: rounded corners */
+    width: 100%; /* Full width */
+}
+
+.multi-line3 {
+    height: 70px; /* Desired height */
+    line-height: 1.5; /* Spacing */
+    resize: none; /* Prevent resizing */
+    overflow: hidden; /* Hide overflow */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #00C0F3; /* Optional: border */
+    border-radius: 4px; /* Optional: rounded corners */
+    width: 100%; /* Full width */
+}
+
+.multi-line4 {
+    height: 70px; /* Desired height */
+    line-height: 1.5; /* Spacing */
+    resize: none; /* Prevent resizing */
+    overflow: hidden; /* Hide overflow */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #D51E29; /* Optional: border */
+    border-radius: 4px; /* Optional: rounded corners */
+    width: 100%; /* Full width */
+}
+
+.multi-line5 {
+    height: 70px; /* Desired height */
+    line-height: 1.5; /* Spacing */
+    resize: none; /* Prevent resizing */
+    overflow: hidden; /* Hide overflow */
+    padding: 10px; /* Inner padding */
+    border: 2px dashed #85A7BF;
+    border-radius: 4px; /* Optional: rounded corners */
+    width: 100%; /* Full width */
+}
+
+.label-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Space between labels and inputs */
+}
+
+.label-column {
+    flex: 1; /* Equal space for each label */
+    text-align: center; /* Center the text */
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+.dropdown-box input[type="text"]{
+    padding: 10px 10px 10px 40px;
+}
+
+
+
+
+input:focus, select:focus {
+    border-color: #00C0F3;
+    box-shadow: 0 0 5px rgba(0, 192, 243, 0.5); /* Focus shadow */
+}
+
+/* Input States */
+input.focused-input, select.focused-input {
+    border-color: #00C0F3;
+}
+
+input.error-input, select.error-input {
+    border-color: #D51E29;
+}
+
+input:disabled {
+    background-color: #e9ecef;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.input-box.disabled input, .input-box.disabled select {
+    border: 2px dashed #85A7BF;
+    padding: 10px;
+}
+
+.dropdown-box.disabled select {
+    border: 2px dashed #85A7BF;
+}
+
+.error-label {
+    color: #dc3545;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 12px;
+    margin-left: 2%;
+   
+}
+
+.error-message2 {
+    color: #dc3545;
+    font-size: 12px;
+    margin-left: 35%;
+   
+}
+
+.error-message3 {
+    color: #dc3545;
+    font-size: 12px;
+    margin-left: 5%;
+}
+
+.error-message4 {
+    color: #dc3545;
+    font-size: 12px;
+    margin-left: 27%;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensures clicks go to the input field */
+    color: #004C87;
+}
+
+.radio-option {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center vertically */
+    margin-bottom: 10px; /* Space between options */
+}
+
+.radio-option input {
+    margin-right: 10px; /* Space between radio button and label */
+}
+
+.radio-option label {
+    display: flex; /* Stack the label and subtext vertically */
+    flex-direction: column; /* Stack vertically */
+}
+
+
+
+.subtext {
+    font-size: 12px; /* Smaller font for subtext */
+    color: #898F98; /* Subtext color */
+    margin-top: 2px; /* Space between label and subtext */
+}
+
+.dropdown-box.disabled .radio-option input:disabled + label {
+    color: gray; /* Change label color to indicate disabled state */
+    cursor: not-allowed; /* Change cursor to indicate it can't be interacted with */
+}
+
+.disabled-label {
+    color: gray; /* Change label color to indicate disabled state */
+    cursor: not-allowed; /* Change cursor to indicate it can't be interacted with */
+}
+
+.dropdown-box.error2 {
+    border: 1px solid #D51E29; /* Add a red border */
+    padding: 10px; /* Optional: Add some padding for spacing */
+    border-radius: 4px; /* Optional: Add rounded corners */
+}
